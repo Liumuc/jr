@@ -1,5 +1,5 @@
 public a
-a=inputbox("请选择您要加入的开发者行列的编号。1.前端HTML+JS 2.后端JAVA 3.题目提供C++")
+a=inputbox("请选择您要加入的开发者行列的编号。1.前端HTML+JS 2.后端JAVA")
 if a="1" then
 	msgbox"选择前端需要进行测试，现在开始"
 	public i1
@@ -27,10 +27,6 @@ else if a="2" then
 		msgbox"请将下列代码发给“lmc070815@sina.com”，请注明姓名+微信号"
 		msgbox"0*0001001 hdJAVA"
 	else msgbox"很遗憾，您并未通过测试，建议您多加学习"
-	end If
-else if a="3" then 
-	msgbox"请将下列代码发给“lmc070815@sina.com”，请注明姓名+微信号"
-	msgbox"0*0001002 tmC++\n"
 	end If
 end If
 end If
